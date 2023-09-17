@@ -82,6 +82,11 @@
 
     .Services .menu-card {
         width: 47%;
+        margin-bottom: 3rem;
+    }
+
+    .Services .menu-card:last-child {
+        margin-bottom: 0;
     }
 
     .Services .menu-name {
