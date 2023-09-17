@@ -1,0 +1,96 @@
+@import url('../../fonts/fonts.css');
+
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0.5rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.Navbar .logo {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    color: gray;
+    transition: color .25s ease-in-out;
+}
+
+.Navbar .logo:hover {
+    color: #da8c7d;
+}
+
+.Navbar img {
+    opacity: .7;
+    position: absolute;
+}
+
+.Navbar img:hover {
+    cursor: pointer;
+}
+
+.Navbar ul {
+    display: flex;
+    padding: 0;
+}
+
+.Navbar li {
+    list-style-type: none;
+    color: gray;
+    margin: 0 .5rem;
+    padding-bottom: .25rem;
+    font-size: 14px;
+    border-bottom: 1px solid white;
+    transition: color .25s ease-in-out, border-bottom .25s ease-in-out;
+}
+
+.Navbar li:hover {
+    cursor: pointer;
+    color: #da8c7d;
+    border-bottom: 1px solid #da8c7d;
+}
+
+.Navbar .toggle-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .Navbar {
+        justify-content: space-between;
+        padding: 4rem 2rem;
+    }
+
+    .Navbar img {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .Navbar {
+        flex-direction: row-reverse;
+    }
+
+    .Navbar ul {
+        display: none;
+    }
+
+    .Navbar .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        line-height: 30px;
+        transform: translate(-50%, -50%);
+    }
+
+    .Navbar .toggle-menu {
+        display: flex;
+        border: 0;
+        background-color: transparent;
+        color: gray;
+    }
+}

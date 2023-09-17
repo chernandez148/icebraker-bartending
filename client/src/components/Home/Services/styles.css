@@ -1,0 +1,100 @@
+.Services {
+    margin-bottom: 3rem;
+}
+
+.Services ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Services li {
+    list-style-type: none;
+    width: 25%;
+    margin: 1rem;
+}
+
+.Services img {
+    width: 100%;
+    filter: grayscale(0);
+    transition: box-shadow .5s ease-in-out, filter .5s ease-in-out;
+}
+
+.Services img:hover {
+    filter: grayscale(1);
+    box-shadow: 0 0 7px #a3a3a3;
+}
+
+.Services span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    color: #da8c7d;
+}
+
+.Services .menu-wrapper {
+    display: flex;
+    padding: 1.5rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Services .menu-card {
+    width: 23%;
+    margin: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Services .menu-info {
+    border-bottom: 1px solid #b9b9b9;
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+}
+
+.Services .drink-ingredients {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@media screen and (min-width: 1450px) {
+    .Services .menu-info {
+        height: 110px !important;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .Services .menu-info {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .Services ul {
+        flex-wrap: wrap;
+    }
+
+    .Services li {
+        width: 45%;
+    }
+
+    .Services .menu-card {
+        width: 47%;
+    }
+
+    .Services .menu-name {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 816px) {
+    .Services li {
+        width: 100%;
+    }
+
+    .Services .menu-card {
+        width: 100%;
+    }
+}

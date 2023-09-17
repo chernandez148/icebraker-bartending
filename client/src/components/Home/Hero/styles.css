@@ -1,0 +1,31 @@
+.Hero {
+    margin-bottom: 5rem;
+    position: relative;
+    /* Add this line to set a positioning context for .title-name */
+}
+
+.Hero img {
+    width: 100%;
+}
+
+.title-name {
+    display: flex;
+    /* Add this line to use flexbox */
+    flex-direction: column;
+    /* Stack the text vertically */
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title-name h1 {
+    color: white;
+    text-align: center;
+    /* Center the text within the container */
+}

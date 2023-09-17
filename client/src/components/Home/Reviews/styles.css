@@ -1,0 +1,42 @@
+.Reviews {
+    margin-bottom: 3rem;
+}
+
+.Reviews h1 {
+    margin: 3rem 0;
+    color: #da8c7d;
+}
+
+.Reviews ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Reviews li {
+    list-style-type: none;
+    margin: 0 1rem;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.Reviews .author {
+    color: #da8c7d;
+    text-align: end;
+
+}
+
+@media screen and (max-width: 1615px) {
+    .Reviews li {
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .Reviews li {
+        width: 100%;
+    }
+}
