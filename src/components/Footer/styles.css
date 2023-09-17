@@ -48,6 +48,7 @@
 .Footer p {
     color: white;
     text-align: center;
+    font-size: 13px;
 }
 
 @media screen and (max-width: 600px) {
