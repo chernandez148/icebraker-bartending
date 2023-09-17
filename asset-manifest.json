@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/icebraker-bartending/static/css/main.9f0b4cea.css",
-    "main.js": "/icebraker-bartending/static/js/main.882cd580.js",
+    "main.js": "/icebraker-bartending/static/js/main.1aa97b4b.js",
     "static/media/bg-cover-mobile.jpg": "/icebraker-bartending/static/media/bg-cover-mobile.92856bef12b54b7377d0.jpg",
     "static/media/bg-cover.jpg": "/icebraker-bartending/static/media/bg-cover.c3f3f53e432fc89aa733.jpg",
     "static/media/parties.png": "/icebraker-bartending/static/media/parties.d93fac79bc040d01660e.png",
@@ -11,10 +11,10 @@
     "static/media/logo.png": "/icebraker-bartending/static/media/logo.d3445bb3dd38a6de1517.png",
     "index.html": "/icebraker-bartending/index.html",
     "main.9f0b4cea.css.map": "/icebraker-bartending/static/css/main.9f0b4cea.css.map",
-    "main.882cd580.js.map": "/icebraker-bartending/static/js/main.882cd580.js.map"
+    "main.1aa97b4b.js.map": "/icebraker-bartending/static/js/main.1aa97b4b.js.map"
   },
   "entrypoints": [
     "static/css/main.9f0b4cea.css",
-    "static/js/main.882cd580.js"
+    "static/js/main.1aa97b4b.js"
   ]
 }
