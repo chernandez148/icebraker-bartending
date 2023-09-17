@@ -15,8 +15,8 @@ function Home() {
                 <About />
                 <Services />
                 <Gallery />
-                <Reviews />
                 <Contact />
+                <Reviews />
             </div>
 
         </section>
