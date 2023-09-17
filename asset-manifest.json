@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/chernandez148/icebraker-bartending/static/css/main.5e3e63dd.css",
+    "main.js": "/chernandez148/icebraker-bartending/static/js/main.430b3c57.js",
+    "static/media/cover.jpg": "/chernandez148/icebraker-bartending/static/media/cover.c3f3f53e432fc89aa733.jpg",
+    "static/media/parties.png": "/chernandez148/icebraker-bartending/static/media/parties.d93fac79bc040d01660e.png",
+    "static/media/baby-shower.png": "/chernandez148/icebraker-bartending/static/media/baby-shower.498f4b37f0a6ab6ad3ea.png",
+    "static/media/special-events.jpg": "/chernandez148/icebraker-bartending/static/media/special-events.420e7fc514bcf4840e0a.jpg",
+    "static/media/wedding.jpg": "/chernandez148/icebraker-bartending/static/media/wedding.597773630ca516833aa0.jpg",
+    "static/media/logo.png": "/chernandez148/icebraker-bartending/static/media/logo.d3445bb3dd38a6de1517.png",
+    "index.html": "/chernandez148/icebraker-bartending/index.html",
+    "main.5e3e63dd.css.map": "/chernandez148/icebraker-bartending/static/css/main.5e3e63dd.css.map",
+    "main.430b3c57.js.map": "/chernandez148/icebraker-bartending/static/js/main.430b3c57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e3e63dd.css",
+    "static/js/main.430b3c57.js"
+  ]
+}
