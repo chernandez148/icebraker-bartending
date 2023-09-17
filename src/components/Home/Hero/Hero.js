@@ -1,5 +1,5 @@
 import React from 'react'
-import cover from '../../../assets/cover.jpg'
+import cover from '../../../assets/bg-cover.jpg'
 import './styles.css'
 
 function Hero() {

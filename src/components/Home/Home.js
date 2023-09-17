@@ -4,8 +4,8 @@ import About from './About/About'
 import Services from './Services/Services'
 import Gallery from './Gallery/Gallery'
 import Contact from './Contact/Contact'
-import './styles.css'
 import Reviews from './Reviews/Reviews'
+import './styles.css'
 
 function Home() {
     return (
