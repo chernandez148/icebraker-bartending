@@ -38,5 +38,8 @@
 @media screen and (max-width: 1015px) {
     .Reviews li {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
+
 }

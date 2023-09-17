@@ -5,3 +5,9 @@
 .Contact p {
     line-height: 25px;
 }
+
+@media screen and (max-width: 600px) {
+    .Contact p {
+        font-size: 14px;
+    }
+}

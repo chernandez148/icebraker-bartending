@@ -3,8 +3,34 @@
     position: relative;
 }
 
-@media screen and (max-width: 600) {
+.About button {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
     .About h4 {
-        text-align: center !important;
+        overflow-y: hidden;
+        transition: height .5s ease-in-out;
     }
+
+    .About .h-300 {
+        height: 300px;
+    }
+
+    .About .h-full {
+        height: initial;
+    }
+
+    .About button {
+        width: 100%;
+        background-color: transparent;
+        border: 0;
+        display: flex;
+        accent-color: gray;
+        justify-content: flex-end;
+        font-size: 15px;
+    }
+
+
+
 }
