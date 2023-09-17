@@ -1,5 +1,6 @@
 .Footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 3rem 0;
     background-color: #d2c7c7;
@@ -8,6 +9,7 @@
 .Footer div {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .Footer h1 {
@@ -33,16 +35,33 @@
     color: white;
 }
 
+.Footer .hours,
+.Footer .contact,
+.Footer .follow {
+    width: 33%;
+}
+
+.Footer .service-area {
+    width: 100%;
+}
+
+.Footer p {
+    color: white;
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
 
     .Footer {
         flex-direction: column;
+        align-items: center;
     }
 
     .Footer div {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100% !important;
     }
 
     .Footer .contact {

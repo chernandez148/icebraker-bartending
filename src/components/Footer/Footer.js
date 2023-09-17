@@ -20,7 +20,6 @@ function Footer() {
             </div>
             <div className='contact'>
                 <h1>CONTACT</h1>
-                <span>Address: 111 1st St, NY, New York</span>
                 <span>Phone Number: (999) 999-9999</span>
                 <span>email: info@example.com</span>
             </div>
@@ -31,6 +30,10 @@ function Footer() {
                         <li key={index}>{info.icon}</li>
                     ))}
                 </ul>
+            </div>
+            <div className='service-area'>
+                <h1>SERVICE AREA</h1>
+                <p>We proudly serve clients throughout Southern California.</p>
             </div>
         </section>
     )
