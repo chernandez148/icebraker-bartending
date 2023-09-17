@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/icebraker-bartending/static/css/main.8ce98586.css",
-    "main.js": "/icebraker-bartending/static/js/main.301c0ea8.js",
+    "main.css": "/icebraker-bartending/static/css/main.286a4fb7.css",
+    "main.js": "/icebraker-bartending/static/js/main.f841bc5f.js",
     "static/media/bg-cover.jpg": "/icebraker-bartending/static/media/bg-cover.92856bef12b54b7377d0.jpg",
     "static/media/parties.png": "/icebraker-bartending/static/media/parties.d93fac79bc040d01660e.png",
     "static/media/baby-shower.png": "/icebraker-bartending/static/media/baby-shower.498f4b37f0a6ab6ad3ea.png",
@@ -9,11 +9,11 @@
     "static/media/wedding.jpg": "/icebraker-bartending/static/media/wedding.597773630ca516833aa0.jpg",
     "static/media/logo.png": "/icebraker-bartending/static/media/logo.d3445bb3dd38a6de1517.png",
     "index.html": "/icebraker-bartending/index.html",
-    "main.8ce98586.css.map": "/icebraker-bartending/static/css/main.8ce98586.css.map",
-    "main.301c0ea8.js.map": "/icebraker-bartending/static/js/main.301c0ea8.js.map"
+    "main.286a4fb7.css.map": "/icebraker-bartending/static/css/main.286a4fb7.css.map",
+    "main.f841bc5f.js.map": "/icebraker-bartending/static/js/main.f841bc5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ce98586.css",
-    "static/js/main.301c0ea8.js"
+    "static/css/main.286a4fb7.css",
+    "static/js/main.f841bc5f.js"
   ]
 }
