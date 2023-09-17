@@ -21,7 +21,7 @@ function Footer() {
             <div className='contact'>
                 <h1>CONTACT</h1>
                 <span>Phone Number: (999) 999-9999</span>
-                <span>email: info@example.com</span>
+                <span>Email: contact@icebrakerbartending.com</span>
             </div>
             <div className='follow'>
                 <h1>FOLLOW</h1>
